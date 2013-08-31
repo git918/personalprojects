@@ -1,0 +1,310 @@
+	body{
+		background:#020104 url(../images/brushed_metal3.jpg) repeat scroll 0 0;
+		font-family:Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Arial,sans-serif;
+		font-size:12px;
+		height:100%;
+	}
+	a{
+		text-decoration:none;
+	}
+	h4{
+		color:#827b3d;
+		font-size:24px;
+	}
+	h5{
+		color:#827b3d;
+		font-size:18px;
+		letter-spacing:0.1em;
+		border-bottom:2px solid #E5D19C;
+	}
+	
+	#mainDiv {
+		width:1000px;
+		height: auto;
+		margin: 0 auto;
+	}
+	
+	.hbar{
+		border-bottom:2px solid #E5D19C;
+	}
+	.subtitle{
+		color:#827b3d;
+		font-size:14px;
+		letter-spacing:0.1em;
+		border-bottom:2px solid #E5D19C;
+	}
+	
+	.email{
+		color:#827b3d;
+		font-size:11px;
+		letter-spacing:0.1em;
+		border-bottom:1px solid #E5D19C;
+	}
+	#header{
+		margin-top:-11px;
+		margin-bottom:35px;
+	}
+	#header dl dt{
+		margin-left:50px;
+	}
+	#header dl dd {
+		margin-top:-115px;
+	}
+	#title{
+		margin-bottom:0;
+		letter-spacing:0.1em;
+		margin-left:250px;
+		margin-top:0;
+		padding-top:30px;
+	}
+	#subtitle{
+		/*border-bottom:1px solid #E5D19C;
+		border-top:1px solid #E5D19C;*/
+		letter-spacing:0.2em;
+		padding:3px;
+		margin-left:350px;
+		width:auto;
+		
+	}
+	#homeDiv{
+		background:transparent url(../images/content.png) repeat-y scroll 0 0; 
+		margin-top:40px;
+		padding-top:25px;
+	}
+	#bottomDiv{
+		background:transparent url(../images/bottom.png) no-repeat scroll 0 0; 
+		padding-top:36px;
+		display:none;
+	}
+	#topDiv{
+		background:transparent url(../images/top.png) no-repeat scroll 0 0; 
+		padding-bottom:16px;
+		display:none;
+	}
+	#nav{
+		width:910px;
+		padding-top:0px;
+		margin-left:50px;
+		color:#E5D19C;
+	}
+	#nav ul{
+		background:url(../images/navigation_new.png) repeat-x scroll left bottom;
+		height:36px;
+		line-height:36px;
+		width:909px;
+		margin:0;
+		padding:0;
+	}
+	#nav ul li{
+		float:left;
+		text-align:center;
+		/*padding-left:32px;
+		padding-right:32px;*/
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		width:101px;
+		margin:0;
+	}
+	#nav ul li a{
+		font-size:13px;
+		color:#E5D19C;
+	}
+	#sideNav{
+		width:300px;
+		float:left;
+	}
+	#sideNavTop{
+		background:transparent url(../images/navigation_sidetop.png) repeat-x scroll 0 0; 
+		margin-left:50px;
+		margin-top:20px;
+	}
+	
+	#sideNavBottom{
+		background:transparent url(../images/navigation_sidetop.png) repeat-x scroll 0 0; 
+		margin-left:50px;
+		margin-top:0px;
+	}
+	
+	#sideNavMain{
+		background:transparent url(../images/navigation_sidemain.png) repeat scroll 0 0;
+		margin-left:50px;
+		margin-top:-18px;
+		height:auto;
+		margin-bottom:-11px;
+	}
+	#sideNavMain ul li{
+		border-top:1px solid #E5D19C;
+		font-stretch:normal;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		line-height:normal;
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		padding-bottom:8px;
+		padding-left:31px;
+		padding-top:7px;
+	}
+	#sideNavMain ul{
+		margin-left:0px;
+		padding-bottom:0px;
+		padding-left:1px;
+	}
+	#sideNavMain ul li a{
+		border-left:1px solid #E5D19C;
+		padding:2px 0 8px 8px;
+		font-size:13px;
+		color:#E5D19C;
+	}
+	#sideNavMain .topItem{
+		border:medium none;
+	}
+	
+	#footerDiv {
+		background: url("../images/navigation_sidemain.png") repeat scroll 0 0 transparent;
+	    height: 70px;
+	    margin-left: 2px;
+	    width: 997px;
+	    margin-bottom:40px;
+	}
+	
+	#footer-links {
+	    list-style: none outside none;
+	    margin: auto;
+	    width: 908px;
+	}
+	#footer-links li {
+	    font-weight: bold;
+	    float: right;
+	    margin: 25px 30px 0 0;
+	}
+	#footer-links li a {
+	    color: #E5D19C;
+	    text-decoration: underline;
+	}
+	
+	#usefulLinksDiv ul li a {
+		text-decoration:underline;
+		color: #000000;
+	}
+	
+	#scrolling_text{
+		color:#827b3d;
+		overflow:hidden;
+		width:600px;
+		height:25px;
+		margin-left:250px;
+		margin-bottom:-25px;
+		letter-spacing:0.1em;
+	}
+	#bodyContent{
+		margin-left:310px;
+		top:0;
+		width:650px;
+		text-align:justify;
+		line-height:200%;
+	}
+	#bodyContent ul#articlesSec li{
+		list-style-image:url("../images/pdficon_small.gif");
+		padding-top:5px;
+		padding-bottom:3px;
+		border-bottom : 1px solid #827b3d;
+	}
+	#bodyContent ul#articlesSec li a{
+		letter-spacing:0.1em;
+		text-decoration:none;
+		font-size : 13px;
+		color : #000000;
+	}
+	
+	#bodyContent ul#galleryId li{
+		list-style-image:url("../images/camera.jpg");
+		padding-top:5px;
+		padding-bottom:3px;
+		border-bottom : 1px solid #827b3d;
+	}
+	#bodyContent ul#galleryId li a{
+		letter-spacing:0.1em;
+		text-decoration:none;
+		font-size : 13px;
+		color : #000000;
+	}
+	
+	#bodyContent ul#videosSec li#nosubsection{
+		list-style-image:url("../images/Video-32.png");
+		padding-top:5px;
+		padding-bottom:3px;
+		border-bottom : 1px solid #827b3d;
+	}
+	#bodyContent ul#videosSec li#nosubsection a{
+		letter-spacing:0.1em;
+		text-decoration:none;
+		font-size : 13px;
+		color : #000000;
+	}
+	
+	#bodyContent ul#videosSec li#subsection {
+		list-style-image:url("../images/Video-32.png");
+		padding-top:5px;
+		padding-bottom:3px;
+		border-bottom : 1px solid #827b3d;
+	}
+	#bodyContent ul#videosSec li#subsection {
+		letter-spacing:0.1em;
+		text-decoration:none;
+		font-size : 13px;
+		color : #000000;
+	}
+	
+	#bodyContent ul#videosSec li#subsection ul li {
+		list-style-image:none;
+		padding-top:5px;
+		padding-bottom:3px;
+	}
+	#bodyContent ul#videosSec li#subsection ul li a{
+		letter-spacing:0.1em;
+		text-decoration:none;
+		font-size : 13px;
+		color : #000000;
+	}
+	
+	#contentTable{
+		margin-top:-25px;
+	}
+	#paginationDiv{
+		background:transparent url(../images/navigation_sidemain.png) scroll 0 0;
+		display:block;
+		width:650px;
+		margin-left:15px;
+		white-space: normal;
+	}
+	.scrollTempStyleRight{
+		text-align:right;
+	}
+	.scrollTempStyleLeft{
+		text-align:left;
+	}
+	.tabSelected{
+		font-weight:bold;
+		text-decoration:underline;
+		color:#d2c868;
+	}
+	.hideObjects{
+		display:none;
+	}
+	.visibleObjects{
+		display:block;
+	}
+	
+	#sub-title {
+	    font-size: 14px;
+	    padding: 10px 0 0 10px;
+	    font-weight: bold;
+	    font-style: oblique;
+	}
+	
+	#page-image {
+	    padding:  0 0 5px 10px;
+	}

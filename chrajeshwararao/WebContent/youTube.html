@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="javascript/swfobject.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<!--<object width="550" height="442">
+		<param name="movie" 
+				value="http://www.youtube-nocookie.com/v/6NbuRWmZLF0?fs=1&amp;hl=en_US&amp;color1=0x3a3a3a&amp;color2=0x999999&amp;border=1">
+		</param>
+		<param name="allowFullScreen" value="true"></param>
+		<param name="allowscriptaccess" value="always"></param>
+		<embed src="http://www.youtube-nocookie.com/v/6NbuRWmZLF0?fs=1&amp;hl=en_US&amp;color1=0x3a3a3a&amp;color2=0x999999&amp;border=1" 
+			   type="application/x-shockwave-flash" 
+			   allowscriptaccess="always" 
+			   allowfullscreen="true" 
+			   width="550" 
+			   height="442">
+		</embed>
+	</object>-->
+	<div id="videos" style="padding-left:15px;">Your browser doesn't have a Adobe Flash Player. Please install the flashplugin to play the videos</div>
+	<script type="text/javascript">
+		// get the current URL
+		var url = window.location.toString();
+		//get the parameters
+		url.match(/\?(.+)$/);
+		var params = RegExp.$1;
+		// split up the query string and store in an
+		// associative array
+		var fileName = params.substring(params.indexOf("=")+1);
+		
+		var flashvars = {
+						};
+		var params = {
+						movie:"http://www.youtube-nocookie.com/v/"+fileName+"?autoplay=1&amp;fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999&amp;border=1",
+						quality:"high",
+						wmode:"transparent",
+						bgcolor:"#ffffff",
+						allowScriptAccess:"always",
+						allowfullscreen:"true",
+						type:"application/x-shockwave-flash",
+						align:"middle"
+					};
+		var attributes = {};
+		attributes.id = "player";
+		swfobject.embedSWF("http://www.youtube-nocookie.com/v/"+fileName+"?autoplay=1&amp;fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999&amp;border=1",
+							 "videos", "550", "500", "10.0.0", false, flashvars, params, attributes);
+	</script>
+
+</body>
+</html>
